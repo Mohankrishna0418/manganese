@@ -1,5 +1,7 @@
 .navigation-bar {
-    
+    border-bottom: 1px solid black;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .navigation-bar-links {
@@ -7,6 +9,10 @@
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 20px;
     justify-content: center;
+}
+
+.navigation-link-active {
+    color:red;
 }
